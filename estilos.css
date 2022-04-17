@@ -1,0 +1,287 @@
+*{
+    font-family:sans-serif;
+    margin: 0%;
+    padding:0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (min-width: 0px) and (max-width: 1800px){
+.ola{
+    position:absolute;
+    width:100%;
+    height:25%;
+    top:-10%;
+    
+}
+.caja-navegacion{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:300px ;
+    background-color: rgb(255, 255, 255);
+    border-bottom:5px rgb(0, 0, 0) solid;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 100px 0px;
+    text-align: center;
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 5em;
+    font-family:monospace;
+    padding:0px 20px;
+}
+.link-menu{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding:10px;
+    transition: 0.2s;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    font-size: 18px;
+}
+.link-menu:hover{
+    
+    transition:0.2s;
+    color:rgb(255, 0, 0);
+}
+.caja-introduccion{
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");    padding: 10px 15px;
+    border-bottom:5px solid black;
+}
+.div-introduccion{
+    background-color: rgba(0, 0, 0, 0.713);
+    color: white;
+    padding: 10px;
+    letter-spacing:0.5px;
+    font-size: 16px;
+    text-align:justify;
+}
+.titulo-introduccion{
+    padding:10px 0px;
+    text-align: center;
+}
+.ventajas-linux{
+    padding: 20px;
+    letter-spacing:0.7px;
+    font-size: 16px;
+    text-align:justify;
+    border-bottom: 5px black solid;
+}
+.titulo-ventajas{
+    font-family: monospace;
+    font-size: 26px;
+    width: 60%;
+    padding:10px 0px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-bottom: 3px rgb(255, 165, 0) solid;
+}
+.text-ventajas{padding: 10px;}
+.caja-descarga{
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    padding: 10px;
+}
+.link-descarga{
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 30px;
+    list-style: none;
+}
+.descargar-linux{
+    width:60%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-bottom:3px rgb(255, 165, 0) solid ;
+}
+.descarga{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    width:30%;   
+    font-family: monospace;
+    font-size: 22px; 
+    color: black;
+    padding: 10px;
+    border-bottom:2px solid black;
+    transition: 0.5s;
+}
+.descarga:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.registrar-inicio{
+    border-top:4px solid black;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+}
+.iniciar-sesion{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding:10px;
+    border-radius:30px;
+}
+.registrarte{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding:10px;
+    border-radius:30px;
+}
+.caja-formulario{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);   
+    padding:20px;
+    outline: none;
+}
+.formulario-inicio{
+    display: grid;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.523);
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow:10px 10px 10px -5px #ffffff;
+}
+.formulario-inicio input{
+    outline: none;
+    border: none;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    border-bottom:4px solid rgb(255, 140, 0);
+    background-color: rgba(255, 255, 255, 0.603);
+}
+.formulario-inicio input::placeholder{
+    color:rgb(0, 0, 0);
+}
+.formulario-registro{
+    display: grid;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.523);
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow:10px 10px 10px -5px #ffffff;
+}
+.formulario-registro input{
+    outline: none;
+    border: none;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    border-bottom:4px solid rgb(255, 140, 0);
+    background-color: rgba(255, 255, 255, 0.603);
+}
+.formulario-registro input::placeholder{
+    color:rgb(0, 0, 0);
+}
+.boton-enviar{
+    outline: none;
+    border:none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(255, 3, 3);
+    border-bottom: 4px orange solid;
+    transition:0.5s;
+
+}
+.boton-enviar:hover{
+    background-color: black;
+    color: white;
+    transition:0.5s;
+}
+.redes-caja{background-color:black;}
+.redes-caja ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    padding:20px;
+}
+.sociales{
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.youtube{
+    color:white;
+    transition:0.5s;
+}
+.youtube:hover{
+    color:rgb(255, 0, 0);
+    transition:0.5s;
+}
+.facebook{
+    color:white;
+    transition:0.5s;
+}
+.facebook:hover{
+    transition:0.5s;
+    color: rgb(3, 24, 255);
+}
+.instagram{
+    color: white;
+    transition:0.5s;
+}
+.instagram:hover{
+    transition:0.5s;
+    color:rgb(225, 12, 104);
+}
+.pinterest{
+    color:white;
+    transition:0.5s;
+}
+.pinterest:hover{
+    color:red;
+    transition:0.5s;
+}
+.contacto{
+    color: white;
+    width:40%;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    border-top:4px solid orange;
+    font-size:26px;
+    font-family: monospace;
+}
+.ola-footer{
+    color:white;
+    display: flex;
+}
+.boton-arriba{
+    background-color: rgba(80, 80, 147, 0.589);
+    width: 40px;
+    height:40px;
+    align-items:center;
+    margin:auto;
+    justify-content:center;
+    display: none;
+    position: fixed;
+    right:5px;
+    bottom:20px;
+    border-radius:20px;
+    border:2px solid black;
+    transition:0.5s;
+    cursor:pointer;
+}
+.boton-arriba:hover{
+    background-color: rgb(80, 80, 147);
+    transition:0.5s;
+}
+}
